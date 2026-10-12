@@ -4,15 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Color Catcher</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<div id="mode"></div>
 
-		<div class="game container">
+		<div class="game-container">
 			<h1>Colour Catcher</h1>
 			<p>Click On: <span id="target-color">#</span></p>
 			<div id="grid" class="color-grid"></div>
 			<p>Time Left: <span id="time">30</span>sec</p>
+			<p>Score : <span id="score">0</span></p>
+			<button onclick="startGame()">Start Game</button>
 		</div>
+
+		<script src="script.js"></script>
 	</body>
 </html>
